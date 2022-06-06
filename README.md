@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![_C__Users_ABIONA%20OLUSHOLA_Documents_Web%20Development%20files_APIs_weather-App_index html](https://user-images.githubusercontent.com/103720345/172261301-a64e5258-22fb-469a-8fd8-f4e70ebe1693.png)
+
 
 ##Here is the screenshot of the app built
 
