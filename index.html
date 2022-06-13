@@ -5,33 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-    <h1>Weather Forecast</h1>
-    <section class="container">
-        <div class="contain">
-            <div class="left">
-                <h3>WEATHER FORECAST</h3>
-                <p>Search for your location weather condition</p>
-                <input id="input" type="text" placeholder="Enter location">
-                <button id="btn">Get Weather</button>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="Abiona-0lushola-Jude.github.io">Developer Portfolio</a></li>
+                <li>API</li>
+                <li><a href="">Git Hub repo</a></li>
+            </ul>
+        </nav>
+        <div class="menu-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    
+    <section class="hero">
+            <p id="top-head">Weather</p>
+            <div class="input">
+                <input type="search" placeholder="Search for a city or airport" id="input">
+                <p id="search">Search</a></p>
             </div>
-            <div class="right">
-                <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" style="height: 5rem;" alt="cloud jps">
-                <h3 id="weatherText"></h3>
-                <h4>Wind: <span id="wind"></span></h4>
-                <h4>Temp: <span id="tempOne"></span>  <span id="tempTwo"></span></h4>
-                <h5>Humidity: <span id="humidity"></span></h5>
+            <div class="hero-body">
+                <div class="image">
+                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="cloud jps">
+                </div>
+                <h1>Welcome to your Weather App</h1>
+                <p>Search for the weather condition of your local area or any other locations.</p>
             </div>
         </div>
-        <div class="foot">
-            <p>Date: <span id="date"></span></p>
-            <p> Region: <span id="country"></span></p>
-            
-        </div>
+        
+
+        <h4>Designed By <a href="https://github.com/Abiona-0lushola-Jude">Olushola</a></h4>
+
+
+        <p style="color: white;"><a href="src/newIndex.html">Click Me</a></p>
     </section>
-    <h4>Designed By <a href="https://github.com/Abiona-0lushola-Jude">Olushola</a></h4>
+
     <script src="main.js"></script>
 </body>
 </html>
