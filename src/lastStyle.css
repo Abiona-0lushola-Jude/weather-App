@@ -33,7 +33,7 @@ body{
     padding-block: 2rem;
 }
 .body{
-    padding: 5rem 6rem;
+    padding: 5rem 7rem;
     display: flex;
     flex-direction: column;
     margin-left: 14%;
@@ -42,7 +42,7 @@ body{
     gap: 1rem;
 }
 .image{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 15rem;
     height: 15rem;
 }
@@ -52,11 +52,29 @@ body{
 }
 #last-location{
     font-size: 2rem;
+    text-transform: capitalize;
 }
 #temp-main{
     font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: 3px;
+}
+.return{
+    display: flex;
+    color: white;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+#home a,
+#return a{
+    padding: 0.5rem 0.9rem;
+    width: max-content;
+    height: max-content;
+    border: 1px solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: #FCFCFC;
 }
 @media screen and (max-width:427px){
     nav{
@@ -106,9 +124,14 @@ body{
         background-color: #3A3A3A;
     }
     .body{
+        padding-block: 1rem;
         margin-inline: 1rem;
     }
     nav.open{
         left: 0;
+    }
+    #last-date{
+        text-align: center;
+        width: 300%;
     }
 }

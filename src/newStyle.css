@@ -46,7 +46,6 @@ nav ul li a{
     gap: 1.5rem;
 }
 .image{
-    border: 1px dashed;
     width: 8em;
     height: 6rem;
 }
@@ -79,11 +78,17 @@ nav ul li a{
 .right{
     align-items: center;
 }
+#cloud-text{
+    text-align: center;
+}
 #header-location,
 #cloud-text,
 #show-less,
 .temp p:last-child{
     font-weight: 900;
+}
+#header-location{
+    text-transform: capitalize;
 }
 .data{
     width: 40%;
@@ -95,6 +100,10 @@ nav ul li a{
 .temp{
     display: flex;
     justify-content: space-between;
+}
+#show-less a{
+    color: gold;
+    text-shadow:1px 1px 0.9px #fff;
 }
 @media screen and (max-width:427px) {
     nav{
@@ -149,7 +158,8 @@ nav ul li a{
     .sub-body{
         margin-inline: 0.1rem;
         width: 100%;
-
+        justify-content: center;
+        align-items: center;
     }
     .main{
         width: 17rem;
@@ -166,5 +176,9 @@ nav ul li a{
     }
     .data{
         width: 15rem;
+    }
+    #header-location,
+    #date-taken{
+        text-align: center;
     }
 }

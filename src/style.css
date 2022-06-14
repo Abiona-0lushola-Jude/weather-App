@@ -75,7 +75,6 @@ nav ul li a{
     gap: 2rem;
 }
 .image{
-    border: 1px solid;
     width: 20rem;
     height: 15rem;
 }
@@ -89,7 +88,9 @@ nav ul li a{
 .hero-body p{
     font-size: 1.2rem;
 }
-
+h4 a{
+    color: gold;
+}
 @media screen and (max-width:427px) {
     nav{
         width: 10rem;
@@ -130,11 +131,11 @@ nav ul li a{
         align-items: center;
     }
     .input{
-        width: 80%;
+        width: 92%;
         justify-content: space-between;
         padding-inline: 0;
         align-items: center;
-        gap: 1rem;
+        gap: 0.3rem;
     }
     #search{
         padding-inline:0.5rem;
@@ -144,7 +145,8 @@ nav ul li a{
 
     }
     .input input{
-        width: 15rem;
+        width: 100%;
+        accent-color: gold;
     }
     .image{
         width: 10rem;
