@@ -65,8 +65,9 @@ function getWeather(callback){
         }) 
         .catch(err => console.error(err));
         setTimeout(() => {
-            callback()
-        }, 4000);
+             callback()
+        }, 4500);
+           
     }
 
     function loading(){
